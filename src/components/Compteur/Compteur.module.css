@@ -1,0 +1,53 @@
+/* Container styling */
+.compteur {
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.number {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* FontAwesome Icon styling (optional) */
+.btn > .fa-icon {
+    font-size: 16px;
+}

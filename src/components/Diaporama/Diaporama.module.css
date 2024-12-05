@@ -1,0 +1,79 @@
+/* Main diaporama container styling */
+.diaporama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+/* Image container styling */
+.diaporama-image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* Maintain 16:9 aspect ratio */
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.diaporama-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Button box styling */
+.btn-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+/* Buttons styling */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* FontAwesome Icon styling (optional) */
+.btn > .fa-icon {
+    font-size: 18px;
+}
+
+
+.btn-next{
+    right: 30px;
+}
+
+.btn-prev{
+    left: 30px;
+}

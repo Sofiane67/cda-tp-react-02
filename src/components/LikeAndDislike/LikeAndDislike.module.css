@@ -1,0 +1,56 @@
+/* Style général pour le conteneur principal */
+.comment-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le paragraphe principal */
+.comment-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Conteneur des boutons */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-top: solid 1px;
+    padding-top: 20px;
+}
+
+/* Conteneur individuel pour like/dislike */
+.btn-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Style pour les boutons */
+.btn-box button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-box button:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour les compteurs (like/dislike) */
+.btn-box p {
+    font-size: 20px;
+    color: #555;
+    margin: 0;
+}
